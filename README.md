@@ -29,5 +29,8 @@ Eyetracking Notes
 # Things to Remove from the Dataset:
 1. If on the word for less than a second or so, remove (these are the ones we skipped past) although this will likely have an exception so verify with the Recording sheet
 
-
+# Possible ML applications:
+1. Predict whether the word was solved correctly (based on the eye-tracking data and possibly other data as well)
+2. Predict which participant (out of the 29) is working on the anagram
+3. Do KNN classification of the fixations and see how that lines up with the location of the letters
 
