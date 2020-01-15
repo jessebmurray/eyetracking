@@ -10,7 +10,7 @@ https://www.dropbox.com/sh/4au2fky38gojrwj/AABITum8SzHVav1GUNYWgq7pa?dl=0
 3. Participant 6: Accidentally skipped the third word (brown), accidentally skipped the final calibration.
 4. Participant 7: Bad calibration.
 5. Participants 8, 9: ‘P09’ in the ‘ParticipantName’ column is actually participant 8, ‘P9’ which comes after P09 is participant 9. **(Fixed)**
-6. Participant 12: Only use the data from the left eye because the participant has a lazy right eye, maybe copy the left eye data to the right eye. Also, the participant stared at the center of the screen for the third word ‘brown’ throughout the entirety of that word. Maybe delete the third word for that participant.
+6. Participant 12: Only use the data from the left eye because the participant has a lazy right eye, maybe copy the left eye data to the right eye. Also, the participant stared at the center of the screen for the third word ‘brown’ throughout the entirety of that word. **(Replaced gen_gazeX and gen_gazeY with left eye gaze data)**
 7. Participant 13: Stares at the screen for the word ‘brown’ for a while, didn’t know that a new word was displayed. 
 8. Participant 14: Uses the same file, which means uses the same words, as participant 13. 
 9. Participant 15: Accidentally skipped final calibration.
