@@ -29,6 +29,13 @@ https://www.dropbox.com/sh/4au2fky38gojrwj/AABITum8SzHVav1GUNYWgq7pa?dl=0
 
 ## Possible ML applications:
 1. Predict whether the word was solved correctly (based on the eye-tracking data and possibly other data as well).
-2. Predict which participant (out of the 29) is working on the anagram.
+2. Predict which participant (out of the 29) is working on the anagram. 
 3. Do KNN classification of the fixations and see how that lines up with the location of the letters.
+4. Use metrics such as: average time between saccade (how slowly does the participant move their eyes around), the proportion of adjacent sequences - as opposed to moving across the screen, the tendency to scan clockwise versus counterclockwise, time spent within letter radius
+
+1. Compare the dwel durations on the letters for correct and incorrect + or - standard deviation for the error bar.
+2. Make a confidence level of 0 to 1 for distance of 2R to 0 from a letter, where R is 143 for for five letter and 129 for six letter. 
+3. Averaged over all the participants, does the proportion of correct sequences immediately prior to a solution? (That would indicate prior knowledge of a solution).
+
+
 
