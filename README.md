@@ -36,7 +36,7 @@ https://www.dropbox.com/sh/4au2fky38gojrwj/AABITum8SzHVav1GUNYWgq7pa?dl=0
 ## Tests to run:
 1. Compare the dwell durations on the letters for correct and incorrect (+ or - standard deviation for the error bar?).
 2. Make a confidence level of 0 to 1 for distance of 2R to 0 from a letter, where R is 143 for for five letter and 129 for six letter. 
-3. Averaged over all the participants, does the proportion of correct sequences immediately prior to a solution? (That would indicate prior knowledge of a solution).
+3. Averaged over all the participants, does the proportion of correct sequences increase immediately prior to a solution? (That would indicate prior knowledge of a solution). **(Yes it does)**
 
 ## Things to do:
 1. Start making a dataframe with 1 row per participant-word.
