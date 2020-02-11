@@ -3,6 +3,7 @@
 The data files are available for download here: 
 https://www.dropbox.com/sh/4au2fky38gojrwj/AABITum8SzHVav1GUNYWgq7pa?dl=0
 
+The main Jupyter Notebook is [par_data_total](https://github.com/jessebmurray/eyetracking/blob/master/par_data_total.ipynb).
 
 ## Mistakes/edge cases in the data:
 1. Switching to the next word immediately instead of doing a countdown begins with participant 4 (inclusive).
