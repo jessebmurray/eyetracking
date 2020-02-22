@@ -21,9 +21,9 @@ The main Jupyter Notebook is [par_data_total](https://github.com/jessebmurray/ey
 
 
 ## Things to Add to the Dataset:
-1. Add whether the participant solved the word.
-2. Add what the participant’s guesses were.
-3. Add the answers for the post-experiment questionnaire.
+1. Add whether the participant solved the word. **(Done)**
+2. Add what the participant’s guesses were. 
+3. Add the answers for the post-experiment questionnaire. **(Done)**
 
 ## Things to Remove from the Dataset:
 1. If on the word for less than a second or so, remove (these are the ones we skipped past) although this will likely have an exception so verify with the Recording sheet. **(Done, still needs some fixing though)**
@@ -34,13 +34,9 @@ The main Jupyter Notebook is [par_data_total](https://github.com/jessebmurray/ey
 3. Do KNN classification of the fixations and see how that lines up with the location of the letters.
 4. Use metrics such as: average time between saccade (how slowly does the participant move their eyes around), the proportion of adjacent sequences - as opposed to moving across the screen, the tendency to scan clockwise versus counterclockwise, time spent within letter radius (dwell duration).
 
-## Tests to run:
-1. Compare the dwell durations on the letters for correct and incorrect (+ or - standard deviation for the error bar?).
-2. Make a confidence level of 0 to 1 for distance of 2R to 0 from a letter, where R is 143 for for five letter and 129 for six letter. 
-3. Averaged over all the participants, does the proportion of correct sequences increase immediately prior to a solution? (That would indicate prior knowledge of a solution). **(Yes it does)**
 
 ## Things to do:
-1. Start making a dataframe with 1 row per participant-word.
+1. Make a dataframe with 1 row per participant-word. **(Done)**
 2. Fix the issue of the 123456 showing up twice, rename the second one.
 
 
