@@ -1,6 +1,6 @@
 # Eyetracking
 
-The data files are available for download at [this dropbox folder](https://www.dropbox.com/sh/4au2fky38gojrwj/AABITum8SzHVav1GUNYWgq7pa?dl=0)
+The data files are available for download at [this dropbox folder](https://www.dropbox.com/sh/4au2fky38gojrwj/AABITum8SzHVav1GUNYWgq7pa?dl=0).
 
 **If you would like to work with the letter sequence data do the following:**
 1. Download the letter sequence database [seq_data.db](seq_data.db)
