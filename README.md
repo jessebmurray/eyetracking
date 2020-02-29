@@ -1,9 +1,15 @@
 # Eyetracking
 
-The data files are available for download here: 
-https://www.dropbox.com/sh/4au2fky38gojrwj/AABITum8SzHVav1GUNYWgq7pa?dl=0
+The data files are available for download at [this dropbox folder](https://www.dropbox.com/sh/4au2fky38gojrwj/AABITum8SzHVav1GUNYWgq7pa?dl=0)
 
-The main Jupyter Notebook is [par_data_total](https://github.com/jessebmurray/eyetracking/blob/master/par_data_total.ipynb).
+**If you would like to work with the letter sequence data do the following:**
+1. Download the letter sequence database [seq_data.db](seq_data.db)
+2. Download the letter sequence code [letter_seq_work.ipynb](letter_seq_work.ipynb)
+
+(The letter sequence code runs on the letter sequence database.)
+
+**In case it is useful:** <br/>
+The main Jupyter Notebook where all the data is cleaned and prepared is [par_data_total](https://github.com/jessebmurray/eyetracking/blob/master/par_data_total.ipynb).
 
 ## Mistakes/edge cases in the data:
 1. Switching to the next word immediately instead of doing a countdown begins with participant 4 (inclusive).
