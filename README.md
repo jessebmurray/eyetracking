@@ -9,7 +9,7 @@ The data files are available for download at [this dropbox folder](https://www.d
 (The letter sequence code runs on the letter sequence database.)
 
 **In case it is useful:** <br/>
-The main Jupyter Notebook where all the data is cleaned and prepared is [par_data_total](https://github.com/jessebmurray/eyetracking/blob/master/par_data_total.ipynb).
+The main Jupyter Notebook where the coordinate and survey data is cleaned and prepared is [par_data_total](https://github.com/jessebmurray/eyetracking/blob/master/par_data_total.ipynb).
 
 ## Mistakes/edge cases in the data:
 1. Switching to the next word immediately instead of doing a countdown begins with participant 4 (inclusive).
