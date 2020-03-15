@@ -11,7 +11,7 @@ The data files are available for download at [this dropbox folder](https://www.d
 **In case it is useful:** <br/>
 The main Jupyter Notebook where the coordinate, questionnaire, and recording data is cleaned, integrated, and analyzed a little bit is [par_data_total](https://github.com/jessebmurray/eyetracking/blob/master/par_data_total.ipynb).
 
-## Mistakes/edge cases in the data:
+## Edge cases in the coordinate data:
 1. Switching to the next word immediately instead of doing a countdown begins with participant 4 (inclusive).
 2. We started using five letter words and the new prompt, which means the  black_break_image was started, beginning with participant 5 (including participant 5). After that, no more changes were made to the stimuli.
 3. Participant 6: Accidentally skipped the third word (brown) **(removed)**, accidentally skipped the final calibration.
@@ -24,26 +24,3 @@ The main Jupyter Notebook where the coordinate, questionnaire, and recording dat
 10. Participant 16: The words brown and junior were switched, so the third word is actually junior, not brown, the participant never got to see junior because they only got to ‘closed’.  **(Not a Problem)**
 11. Participant 19: Quality of data is terrible, probably can’t use. **(Fixed: Deleted Participant 19 Data)**
 12. Participant 26: The words brown and power were switched so brown was second then power was third. **(Not a Problem)**
-
-
-## Things to Add to the Dataset:
-1. Add whether the participant solved the word. **(Done)**
-2. Add what the participant’s guesses were. 
-3. Add the answers for the post-experiment questionnaire. **(Done)**
-
-## Things to Remove from the Dataset:
-1. If on the word for less than a second or so, remove (these are the ones we skipped past) although this will likely have an exception so verify with the Recording sheet. **(Done, still needs some fixing though)**
-
-## Possible ML applications:
-1. Predict whether the word was solved correctly (based on the eye-tracking data and possibly other data as well).
-2. Predict which participant (out of the 29) is working on the anagram. 
-3. Do KNN classification of the fixations and see how that lines up with the location of the letters.
-4. Use metrics such as: average time between saccade (how slowly does the participant move their eyes around), the proportion of adjacent sequences - as opposed to moving across the screen, the tendency to scan clockwise versus counterclockwise, time spent within letter radius (dwell duration).
-
-
-## Things to do:
-1. Make a dataframe with 1 row per participant-word. **(Done)**
-2. Fix the issue of the 123456 showing up twice, rename the second one.
-
-
-
