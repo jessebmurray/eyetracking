@@ -1,5 +1,7 @@
 # Eyetracking
 
+Check out the [newer GitHub repository](https://github.com/jessebmurray/eyetracking2). 
+
 The data files are available for download at [this dropbox folder](https://www.dropbox.com/sh/4au2fky38gojrwj/AABITum8SzHVav1GUNYWgq7pa?dl=0).
 
 **If you would like to work with the letter sequence data do the following:**
